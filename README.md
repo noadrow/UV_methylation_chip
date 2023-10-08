@@ -1,6 +1,6 @@
 # UV_methylation_chip
 
-# code
+# code folder
 ## average_meth.py
 a python script takes a methylation dataset and a chosen CpG list and outputs mean\std\max\min
 
@@ -43,9 +43,21 @@ A bash script of the almost full pipeline from the position of the CpG sites to 
 ## UV_chip_2.ipynb
 A jupyter notebook of the early stages of the simulation script.
 
+# DATA folder
+all data used for the project:
+## 60k_array_probe_analysis:
+  original agilent probe sequences source
+## arigent_sites:
+  60k_array_probe of agilent as a fasta format (also indexed)
+## hg38.fa: 
+  the genome reference used for this experiment.
+## horvrath_clock.bed: 
+  Bed format of the 334 CpG sites that found in the horvrath clock 
 
+## horvrath_clock.txt:
+  Just the CpG list itself of the horvarth clock
 
-
+# results_1 folder
 
 
 
