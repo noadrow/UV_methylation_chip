@@ -1,5 +1,18 @@
 # UV_methylation_chip
-![alt text](https://raw.githubusercontent.com/noadrow/UV_methylation_chip/9038c37f76b701f159557feca85f1c808a198c16/UV.png)
+
+## Basic idea of the simulation:
+![alt text]([https://raw.githubusercontent.com/noadrow/UV_methylation_chip/9038c37f76b701f159557feca85f1c808a198c16/UV.png](https://raw.githubusercontent.com/noadrow/UV_methylation_chip/main/Pressentation%20images/8_7_23%20-%20UV%20CHIP.png))
+
+## Simulation target ouput example in genomebrowser
+![alt text]([[https://raw.githubusercontent.com/noadrow/UV_methylation_chip/9038c37f76b701f159557feca85f1c808a198c16/UV.png](https://raw.githubusercontent.com/noadrow/UV_methylation_chip/main/Pressentation%20images/8_7_23%20-%20UV%20CHIP.png)](https://raw.githubusercontent.com/noadrow/UV_methylation_chip/main/Pressentation%20images/8_7_23%20-%20UV%20CHIP%20(1).png))
+![alt text](https://raw.githubusercontent.com/noadrow/UV_methylation_chip/main/Pressentation%20images/8_7_23%20-%20UV%20CHIP%20(2).png)
+
+## further description of the creation of the distribution mathematicaly
+![alt text]([https://raw.githubusercontent.com/noadrow/UV_methylation_chip/main/Pressentation%20images/8_7_23%20-%20UV%20CHIP%20(2).png](https://raw.githubusercontent.com/noadrow/UV_methylation_chip/main/Pressentation%20images/8_7_23%20-%20UV%20CHIP%20(3).png))
+
+## last step of the simulation is to extract the actual beta-value, this is the current approach 
+  the normalization factor in here describe something similar to exposure effect on the images.
+![alt text](https://raw.githubusercontent.com/noadrow/UV_methylation_chip/main/Pressentation%20images/8_7_23%20-%20UV%20CHIP%20(4).png)
 
 # UV_CHIP.pptx
 Summary of the algorithm's simulation and results
