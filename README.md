@@ -1,18 +1,21 @@
 # UV_methylation_chip
 
 ## Basic idea of the simulation:
-![alt text]([https://raw.githubusercontent.com/noadrow/UV_methylation_chip/main/Pressentation%20images/8_7_23%20-%20UV%20CHIP.png](https://raw.githubusercontent.com/noadrow/UV_methylation_chip/main/Pressentation%20images/satistics.png))
+![alt text](https://raw.githubusercontent.com/noadrow/UV_methylation_chip/main/Pressentation%20images/8_7_23%20-%20UV%20CHIP.png)
 
 ## Simulation target ouput example in genomebrowser
-![alt text](https://raw.githubusercontent.com/noadrow/UV_methylation_chip/9038c37f76b701f159557feca85f1c808a198c16/UV.png)
 ![alt text](https://raw.githubusercontent.com/noadrow/UV_methylation_chip/main/Pressentation%20images/8_7_23%20-%20UV%20CHIP%20(2).png)
+![alt text](https://raw.githubusercontent.com/noadrow/UV_methylation_chip/main/Pressentation%20images/8_7_23%20-%20UV%20CHIP%20(1).png)
 
 ## further description of the creation of the distribution mathematicaly
-![alt text](https://raw.githubusercontent.com/noadrow/UV_methylation_chip/main/Pressentation%20images/8_7_23%20-%20UV%20CHIP%20(2).png)
+![alt text](https://raw.githubusercontent.com/noadrow/UV_methylation_chip/main/Pressentation%20images/satistics.png)
 
 ## last step of the simulation is to extract the actual beta-value, this is the current approach 
   the normalization factor in here describe something similar to exposure effect on the images.
 ![alt text](https://raw.githubusercontent.com/noadrow/UV_methylation_chip/main/Pressentation%20images/8_7_23%20-%20UV%20CHIP%20(4).png)
+
+# Results example for a sub-set CpG sites from horvarth clock, in agilent probes and illumina probes (in simulation value range):
+![alt text](https://raw.githubusercontent.com/noadrow/UV_methylation_chip/main/Pressentation%20images/heatmap_result.png)
 
 # UV_CHIP.pptx
 Summary of the algorithm's simulation and results
