@@ -1,64 +1,60 @@
 # UV_methylation_chip
 
+# UV_CHIP.pptx
+Summary of the algorithm's simulation and results
+
 # code folder
 ## average_meth.py
-a python script takes a methylation dataset and a chosen CpG list and outputs mean\std\max\min
+A Python script takes a methylation dataset and a chosen CpG list as input and outputs the mean, standard deviation, maximum, and minimum values.
 
 ## blat.sh
-a bash script that convert CpG sites into fasta and also extending the range from 2 nuclotised to 1000 from each side (usful for the simulation).
+A bash script that converts CpG sites into FASTA format and also extends the range by 2 nucleotides to 1000 on each side (useful for simulation purposes - range for the target selection)
 
 ## extened_bed.py 
-a python script that add a choosen number of nucleotides from each sides
+A Python script that adds a chosen number of nucleotides to each side.
 
 ## extened_bed.sh
-a bash script that add a choosen number of nucleotides from each sides
-(recommened, speed wise).
+A bash script that adds a chosen number of nucleotides to each side of the sequence (recommended for speed efficiency)
 
 ## get_probes_arigent.py
-a python script that specificly parse the agilent probe sites to get a fasta formeted list.
+A Python script that specifically parses the Agilent probe sites to generate a fasta-formatted list of sites.
 
-## label_seq.py (not finished)
-a python script made to label CpG sites in a string (not finished).
+## label_seq.py
+A Python script designed to label CpG sites within a string (unfinished).
 
 ## main.py 
 a python script: UV chip simulation version_1
 calculate expected flourence distribution in a fully un-methylated state.
 
 ## main_2.py
-a python script: UV chip simulation version_2
-calculate expected flourence distribution in a fully un-methylated state.
+A Python script, UV chip simulation version 1, calculates the expected fluorescence distribution in a fully unmethylated state sites.
 
 ## mult_nums.sh
-a bash script that takes a file of simulation value and calculated beta-values from a illumina dataset and multiplied them.
+An executable bash script that processes a file containing simulation values and computed beta-values from an Illumina dataset, performing multiplication on these values.
 
 ## plot_betas.py
-a python script that takes the simulation results (or any list of numbers) shape it to a M x M matrix and heatmap color by the value.
+A Python script that takes the simulation results (or any list of numbers), shapes them into an M x M matrix, and colors the heatmap based on the values.
 
 ## UV_chip.py
-The final offical script that calculate the simulation values of the UV chip array. 
+The final official script that calculates the simulation values for the UV chip array.
 
 ## UV_chip.sh
-A bash script of the almost full pipeline from the position of the CpG sites to the plotting of the simulation results. 
+A bash script representing the nearly complete pipeline, starting from the position of the CpG sites and ending with the generation of the simulation results plot.
 
 ## UV_chip_2.ipynb
-A jupyter notebook of the early stages of the simulation script.
+A Jupyter notebook documenting the initial stages of the simulation script.
 
 # DATA folder
-all data used for the project:
+All data used for the project:
 ## 60k_array_probe_analysis:
-  original agilent probe sequences source
+  Source of original Agilent probe sequences.
 ## arigent_sites:
-  60k_array_probe of agilent as a fasta format (also indexed)
+  Agilent 60k array probe sequences in FASTA format (also indexed).
 ## hg38.fa: 
-  the genome reference used for this experiment.
+  The genome reference used for this experiment.
 ## horvrath_clock.bed: 
-  Bed format of the 334 CpG sites that found in the horvrath clock 
-
+  BED format file containing the 334 CpG sites found in the Horvath clock.
 ## horvrath_clock.txt:
-  Just the CpG list itself of the horvarth clock
-
-# results_1 folder
-
-
+  The list of CpG sites in the Horvath clock."
 
 * note: you'll might want to use unix2dos function before using the bash scripts on windows.
