@@ -1,7 +1,7 @@
 # UV_methylation_chip
 
 ## Basic idea of the simulation:
-![alt text](https://raw.githubusercontent.com/noadrow/UV_methylation_chip/main/Pressentation%20images/8_7_23%20-%20UV%20CHIP.png)
+![alt text]([https://raw.githubusercontent.com/noadrow/UV_methylation_chip/main/Pressentation%20images/8_7_23%20-%20UV%20CHIP.png](https://raw.githubusercontent.com/noadrow/UV_methylation_chip/main/Pressentation%20images/satistics.png))
 
 ## Simulation target ouput example in genomebrowser
 ![alt text](https://raw.githubusercontent.com/noadrow/UV_methylation_chip/9038c37f76b701f159557feca85f1c808a198c16/UV.png)
