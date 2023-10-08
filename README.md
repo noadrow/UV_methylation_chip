@@ -1,20 +1,21 @@
 # UV_methylation_chip
 
-## Basic idea of the simulation:
+## The Fundamental Concept of the Simulation:
 ![alt text](https://raw.githubusercontent.com/noadrow/UV_methylation_chip/main/Pressentation%20images/8_7_23%20-%20UV%20CHIP.png)
 
-## Simulation target ouput example in genomebrowser
+## Example of Target Simulation Output in Genome Browser 
 ![alt text](https://raw.githubusercontent.com/noadrow/UV_methylation_chip/main/Pressentation%20images/8_7_23%20-%20UV%20CHIP%20(2).png)
 ![alt text](https://raw.githubusercontent.com/noadrow/UV_methylation_chip/main/Pressentation%20images/8_7_23%20-%20UV%20CHIP%20(1).png)
 
-## further description of the creation of the distribution mathematicaly
+## Further Mathematical Description of The Distribution
 ![alt text](https://raw.githubusercontent.com/noadrow/UV_methylation_chip/main/Pressentation%20images/satistics.png)
 
-## last step of the simulation is to extract the actual beta-value, this is the current approach 
-  the normalization factor in here describe something similar to exposure effect on the images.
+## The Final Step in the Simulation is to Extract the Actual Beta-Value, and This is the Current Approach.
+The normalization factor here describes something similar to the exposure effect in images.
 ![alt text](https://raw.githubusercontent.com/noadrow/UV_methylation_chip/main/Pressentation%20images/8_7_23%20-%20UV%20CHIP%20(4).png)
 
-# Results example for a sub-set CpG sites from horvarth clock, in agilent probes and illumina probes (in simulation value range):
+# Example Results for a Subset of CpG Sites from the Horvath Clock that are also found in Agilent Probes and Illumina Probes 
+Colors represent the simulation value range.
 ![alt text](https://raw.githubusercontent.com/noadrow/UV_methylation_chip/main/Pressentation%20images/heatmap_result.png)
 
 # UV_CHIP.pptx
