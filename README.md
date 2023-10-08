@@ -1,5 +1,5 @@
 # UV_methylation_chip
-![alt text]([[http://url/to/img.png](https://github.com/noadrow/UV_methylation_chip/blob/9038c37f76b701f159557feca85f1c808a198c16/UV.png)](https://raw.githubusercontent.com/noadrow/UV_methylation_chip/9038c37f76b701f159557feca85f1c808a198c16/UV.png))
+![alt text](https://raw.githubusercontent.com/noadrow/UV_methylation_chip/9038c37f76b701f159557feca85f1c808a198c16/UV.png)
 
 # UV_CHIP.pptx
 Summary of the algorithm's simulation and results
