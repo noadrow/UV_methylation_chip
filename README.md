@@ -62,6 +62,19 @@ A bash script representing the nearly complete pipeline, starting from the posit
 ## UV_chip_2.ipynb
 A Jupyter notebook documenting the initial stages of the simulation script.
 
+## grep_by_list.sh
+Useful, for example, when you need specific BED sequences but only have a list of CpGs
+
+# intersection
+> bedtools intersect -a $1 -b $2 > out1.bed
+> bedtools intersect -a $2 -b $1 > out2.bed
+
+## pipe_run.sh
+Similar to UV_chip.sh but with improved documentation.
+
+## to_fas.sh
+A bash script for cleaning up and extracting a FASTA-formatted file from Genome Browser output (?).
+
 # DATA folder
 All data used for the project:
 ## 60k_array_probe_analysis:
