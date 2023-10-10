@@ -20,7 +20,7 @@ Colors represent the simulation value range.
 
 ## Here is an example of a use case::
 ```
-bash UV_chip.sh ../data/horvarth_clock.bed ../results
+bash pipe_run.sh ../data/horvarth_clock.bed ../results
 ```
 
 # UV_CHIP.pptx
