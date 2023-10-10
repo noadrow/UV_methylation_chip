@@ -7,7 +7,7 @@
 ![alt text](https://raw.githubusercontent.com/noadrow/UV_methylation_chip/main/Pressentation%20images/8_7_23%20-%20UV%20CHIP%20(2).png)
 ![alt text](https://raw.githubusercontent.com/noadrow/UV_methylation_chip/main/Pressentation%20images/8_7_23%20-%20UV%20CHIP%20(1).png)
 
-## Further Mathematical Description of The Distribution
+## Further Mathematical Description of The Simulation
 ![alt text](https://raw.githubusercontent.com/noadrow/UV_methylation_chip/main/Pressentation%20images/satistics.png)
 
 ## The Final Step in the Simulation is to Extract the Actual Beta-Value, and This is the Current Approach.
