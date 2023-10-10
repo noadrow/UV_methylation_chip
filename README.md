@@ -18,6 +18,11 @@ The normalization factor here describes something similar to the exposure effect
 Colors represent the simulation value range.
 ![alt text](https://raw.githubusercontent.com/noadrow/UV_methylation_chip/main/Pressentation%20images/heatmap_result.png)
 
+## Example of usecase:
+'''
+bash UV_chip.sh ../data/horvarth_clock.bed ../results
+'''
+
 # UV_CHIP.pptx
 Summary of the algorithm's simulation and results
 
