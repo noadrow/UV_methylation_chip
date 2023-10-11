@@ -18,7 +18,7 @@ The normalization factor here describes something similar to the exposure effect
 Colors represent the simulation value range.
 ![alt text](https://raw.githubusercontent.com/noadrow/UV_methylation_chip/main/Pressentation%20images/heatmap_result.png)
 
-## Here is an example of a use case::
+## Here is an example of a use case:
 ```
 bash ./pipe_run.sh ./data/hg38.fa ./data/agilent_60k.fa
 ```
