@@ -1,4 +1,4 @@
-#JAX_methylation_chip
+# JAX_methylation_chip
 
 ## The Fundamental Concept of the Simulation:
 ![alt text](https://raw.githubusercontent.com/noadrow/UV_methylation_chip/main/Pressentation%20images/8_7_23%20-%20UV%20CHIP.png)
