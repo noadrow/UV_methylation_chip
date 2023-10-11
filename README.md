@@ -29,14 +29,27 @@ bash ./pipe_run.sh ./data/hg38.fa ./data/agilent_60k.fa
 Summary of the algorithm's simulation and results
 
 # code folder
+### updated scripts
+
+## blat
+The genome browser's "blat" feature operates akin to "blasten" but is specifically employed to locate a precise 100% identical match within a user-selected genome reference.
+
+## extened_bed.py 
+A Python script that adds a chosen number of nucleotides to each side.
+
+## plot_betas.py
+A Python script that takes the simulation results (or any list of numbers), shapes them into an M x M matrix, and colors the heatmap based on the values.
+
+## UV_chip.py
+The final official script that calculates the simulation values for the UV chip array.
+
+
+### old scripts
 ## average_meth.py
 A Python script takes a methylation dataset and a chosen CpG list as input and outputs the mean, standard deviation, maximum, and minimum values.
 
 ## blat.sh
 A bash script that converts CpG sites into FASTA format and also extends the range by 2 nucleotides to 1000 on each side (useful for simulation purposes - range for the target selection)
-
-## extened_bed.py 
-A Python script that adds a chosen number of nucleotides to each side.
 
 ## extened_bed.sh
 A bash script that adds a chosen number of nucleotides to each side of the sequence (recommended for speed efficiency)
@@ -56,12 +69,6 @@ A Python script, UV chip simulation version 1, calculates the expected fluoresce
 
 ## mult_nums.sh
 An executable bash script that processes a file containing simulation values and computed beta-values from an Illumina dataset, performing multiplication on these values.
-
-## plot_betas.py
-A Python script that takes the simulation results (or any list of numbers), shapes them into an M x M matrix, and colors the heatmap based on the values.
-
-## UV_chip.py
-The final official script that calculates the simulation values for the UV chip array.
 
 ## UV_chip.sh
 A bash script representing the nearly complete pipeline, starting from the position of the CpG sites and ending with the generation of the simulation results plot.
