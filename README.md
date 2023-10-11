@@ -22,6 +22,8 @@ Colors represent the simulation value range.
 ```
 bash ./pipe_run.sh ./data/hg38.fa ./data/agilent_60k.fa
 ```
+## example of output
+![image](https://github.com/noadrow/UV_methylation_chip/assets/105928017/30891e1c-280f-4ea3-b271-dee5db980058)
 
 # UV_CHIP.pptx
 Summary of the algorithm's simulation and results
