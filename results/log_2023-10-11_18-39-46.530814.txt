@@ -1,0 +1,4 @@
+simulation number iteration: 1000
+ input file: ./results/agilent_sites_extened_no_strand.csv
+ output file: ./results/agilent_sites_extened_no_strand.fa
+ 
