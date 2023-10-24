@@ -103,4 +103,4 @@ All data used for the project:
 ## horvrath_clock.txt:
   The list of CpG sites in the Horvath clock."
 
-* NOTE: you'll might want to use unix2dos function before using the bash scripts on windows.
+* NOTE: using unix2dos on bash scripts is recommended for windows users.
